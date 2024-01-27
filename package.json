@@ -1,0 +1,20 @@
+{
+  "name": "openai-pool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Nish Tahir <nishtahir@outlook.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "openai": "^4.26.0"
+  }
+}
